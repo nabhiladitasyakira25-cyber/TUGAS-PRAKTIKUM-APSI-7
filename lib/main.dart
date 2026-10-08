@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:tugas_pertama/home.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Tugas Pertama',
+      debugShowCheckedModeBanner: false,
+      home: HomePage()
+        
+      );
+  }
+}
+
